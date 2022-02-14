@@ -1,0 +1,13 @@
+// Override theming for edx.org bootstrap
+
+// Define the primary red color
+$juit: #f9b122;
+
+// Make red the primary color
+$primary: $juit;
+$secondary-light: #fde59b;
+$secondary-dark: #2d3537;
+$header-bg: #f9b122;
+$footer-bg: #f9b122;
+
+@import 'edx-bootstrap/sass/edx/theme';
